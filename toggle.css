@@ -1,0 +1,64 @@
+.nav__toggle {
+  position: fixed;
+  top: 1.25rem;
+  left: 1.875rem;
+  cursor: pointer;
+  font-size: 30px;
+  border-radius: 5px;
+  background-color: var(--body-color);
+  border: 1px solid #e8dfec;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  transition: 0.3s;
+}
+
+/* Styles pour le bouton de changement de thème */
+.theme-toggle-btn {
+  position: fixed;
+  top: 2px;
+  right: 1.875rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 45px;
+  color: var(--icon-color); /* Vous pouvez personnaliser cette couleur */
+  z-index: 1000;
+  transition: all 0.5s ease;
+}
+
+.theme-toggle-btn i {
+  transition: transform 0.5s ease; /* Transition pour rotation */
+}
+
+.theme-toggle-btn i.bx-toggle-right {
+  transform: rotate(360deg);
+}
+
+.theme-toggle-btn:hover {
+  color: var(
+    --text-color
+  ); /* Change la couleur au survol pour plus d'interactivité */
+}
+
+@media screen and (max-width: 1310px) {
+  .theme-toggle-btn {
+    right: 2.5%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .aside {
+    left: -110px;
+  }
+  .nav__toggle {
+    display: flex;
+  }
+  .nav__toggle-open {
+    left: 140px;
+  }
+  .aside.visible {
+    left: 0;
+  }
+}
