@@ -522,21 +522,23 @@
     margin-left: 135px;
   }
   .description {
-    height: 30vh;
+    height: 26vh;
     width: 35rem;
     margin-top: -35%;
     margin-bottom: 15%;
     margin-left: 9.5%;
   }
   .description .icons_div {
-    margin-top: -3%;
+    margin-top: 2%;
     gap: 19.2rem;
   }
   .work_pres_all:first-child .description .icons_div,
   .work_pres_all:nth-child(2) .description .icons_div,
-  .work_pres_all:nth-child(3) .description .icons_div,
-  .work_pres_all:nth-child(6) .description .icons_div {
+  .work_pres_all:nth-child(3) .description .icons_div {
     padding-top: 2%;
+  }
+  .work_pres_all:nth-child(6) .description .icons_div {
+    padding-top: 0%;
   }
   .work_pres_all:nth-child(4) .description .icons_div,
   .work_pres_all:nth-child(5) .description .icons_div,
