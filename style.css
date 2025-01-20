@@ -258,6 +258,7 @@ header a {
 
 .carousel .list .item .contenu .desc_petit_ecran {
   display: none;
+  padding-bottom: 1rem;
   animation-delay: 1.6s;
 }
 
@@ -268,6 +269,7 @@ header a {
 .carousel .list .item .contenu .desc {
   font-size: 16px;
   animation-delay: 1.6s;
+  padding-bottom: 1rem;
 }
 
 .carousel .list .item .contenu .buttons {
