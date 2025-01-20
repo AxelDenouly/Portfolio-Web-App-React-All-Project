@@ -483,7 +483,32 @@
   }
   .description {
     margin-left: 9%;
-    margin-top: -25%;
+    margin-top: -30%;
+    height: 33vh;
+    width: 35rem;
+  }
+  .description .icons_div {
+    margin-top: 0rem;
+    gap: 19rem;
+  }
+    
+  .work_pres_all:nth-child(5) .description .icons_div,
+  .work_pres_all:nth-child(19) .description .icons_div,
+  .work_pres_all:nth-child(14) .description .icons_div,
+  .work_pres_all:nth-child(15) .description .icons_div {
+    padding-top: 2.5rem;
+  }
+  .work_pres_all:nth-child(8) .description .icons_div,
+  .work_pres_all:nth-child(11) .description .icons_div,
+  .work_pres_all:nth-child(13) .description .icons_div,
+  .work_pres_all:nth-child(16) .description .icons_div,
+  .work_pres_all:nth-child(17) .description .icons_div,
+  .work_pres_all:nth-child(18) .description .icons_div {
+    padding-top: 4rem;
+  }
+  .work_pres_all:nth-child(10) .description .icons_div,
+  .work_pres_all:nth-child(12) .description .icons_div {
+    padding-top: 5rem;
   }
 }
 
@@ -585,26 +610,30 @@
   }
   .description {
     height: 34vh;
-    width: 33rem;
+    width: 30rem;
     margin-top: -40%;
     margin-left: 9.9%;
   }
   .work_pres_all .description .icons_div {
-    gap: 17.7rem;
+    gap: 15.5rem;
+  }
+  .work_pres_all .description p {
+    font-size: .78rem;
   }
   .work_pres_all:first-child .description .icons_div,
-  .work_pres_all:nth-child(6) .description .icons_div,
-  .work_pres_all:nth-child(2) .description .icons_div {
+  .work_pres_all:nth-child(6) .description .icons_div {
     padding-top: 3%;
   }
+  
+  .work_pres_all:nth-child(2) .description .icons_div,
   .work_pres_all:nth-child(3) .description .icons_div,
-  .work_pres_all:nth-child(15) .description .icons_div,
   .work_pres_all:nth-child(19) .description .icons_div {
     padding-top: 9%;
   }
   .work_pres_all:nth-child(4) .description .icons_div,
   .work_pres_all:nth-child(7) .description .icons_div,
   .work_pres_all:nth-child(14) .description .icons_div,
+  .work_pres_all:nth-child(15) .description .icons_div,
   .work_pres_all:nth-child(16) .description .icons_div,
   .work_pres_all:nth-child(17) .description .icons_div,
   .work_pres_all:nth-child(18) .description .icons_div {
